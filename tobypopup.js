@@ -8,7 +8,6 @@
         <p>As an attendee of the 2025 NZ Plumbing Conference, you are invited to trial Toby, our AI-powered chatbot. Toby is currently in its testing phase, and we are actively working to improve the accuracy and reliability of the information it provides.</p>
         <p>Please note that, as Toby is still under development, the responses it generates may not always be accurate or up to date. We recommend that you do not rely on any information provided by Toby without first verifying its source.</p>
         <p>If you encounter any issues or would like to share your feedback, we welcome your input. Please use the link below to submit your comments and suggestions.</p>
-        <p><a href="https://your-feedback-form-link.com" target="_blank">Submit Feedback</a></p>
       </div>
     </div>
   `;
