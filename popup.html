@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <style>
+            .modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 600px;
+    font: inherit;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #00395d;
+    text-decoration: none;
+  }
+
+  @media (max-width: 480px) {
+    .modal-content {
+      font-size: 0.95rem;
+      padding: 15px;
+    }
+
+    .close {
+      font-size: 24px;
+      top: 8px;
+      right: 12px;
+    }
+  }
+        </style>
+    </head>
     <div class="modal-content">
     <span class="close">&times;</span>
     <h2>Acknowledgement of Use</h2>
     <p>As an attendee of the 2025 NZ Plumbing Conference, you are invited to trial Toby, our AI-powered chatbot. Toby is currently in its testing phase, and we are actively working to improve the accuracy and reliability of the information it provides.</p>
     <p>Please note that, as Toby is still under development, the responses it generates may not always be accurate or up to date. We recommend that you do not rely on any information provided by Toby without first verifying its source.</p>
     <p>If you encounter any issues or would like to share your feedback, we welcome your input. Please use the link below to submit your comments and suggestions.</p>
-    
   </div>
 </div>
